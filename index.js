@@ -22,11 +22,25 @@ function makeColumns(cellNum) {
     for (i = 0; i < rows.length; i++) {
         for (j = 0; j < cellNum; j++) {
             let newCell = document.createElement("div");
-            rows[j].appendChild(newCell).className = "cell";
+            rows[j].appendChild(newCell).className = "cell";            
+            newCell.addEventListener("mouseover", function( event ) {
+                // highlight the mouseenter target
+                event.target.style.backgroundColor = "purple";
+            })
         };
-
     };
+    
 };
+
+
+
+
+
+// container.addEventListener("mouseout", function( event ) {
+//     // highlight the mouseenter target
+//     event.target.style.backgroundColor = "white";
+// })
+
 
 
 defaultGrid()
