@@ -1,8 +1,14 @@
-/* .gridRow {
+.gridRow {
     border: 1px solid black;
 
 
-} */
+}
+
+#container{
+    background-color: aqua;
+    width: 960px;
+    height: 360px;
+}
 
 .cell {
     border: 1px solid gray;
