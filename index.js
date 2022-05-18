@@ -43,7 +43,6 @@ button.addEventListener("click" ,function (event){
         alert ("MUST BE LESS")
     } else if (event < 100) {
         defaultGrid(event)
-        
     }
 })
 
