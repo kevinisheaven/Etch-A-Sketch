@@ -1,3 +1,14 @@
+h1 {
+  font-family: "Fantasy";
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  left: 15%;
+
+}
+
 .gridRow {
   border: 1px solid black;
   /* width: 100%;
@@ -7,11 +18,14 @@
 
 #container{
   background-color: aqua;
-  width: 960px;
-  height: 360px;
+  width: 860px;
+  height: 560px;
   display: table;
-  flex-direction: column;
-
+  /* flex-direction: column; */
+  border: 1px solid black;
+  position: absolute;
+  /* right: 50%; */
+  left: 20%;
 }
 
 .cell {
